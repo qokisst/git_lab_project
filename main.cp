@@ -19,8 +19,8 @@ int main(int argc, char* argv[]) {
         result = a - b;
     } else if (op == "/") {
         if (b == 0) {
-            std::cout << "Division by zero\n"; // Обработка деления на ноль
-            return 1; // Возвращаем код ошибки
+            std::cout << "Division by zero\n";
+            return 1; 
         }
         result = a / b;
     } else {
