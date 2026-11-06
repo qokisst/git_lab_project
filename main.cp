@@ -31,8 +31,3 @@ int main(int argc, char* argv[]) {
     std::cout << result << "\n";
     return 0;
 }
-    if (op == "+") {
-        result = a + b;
-    } else if (op == "-") {
-        result = a - b;
-    } else if (op == "/") {
